@@ -5,17 +5,8 @@
 # 🚀 ESWARAMOORTHI MAHALINGAM
 
 ### Research Developer • AI Lead • Corporate Trainer • Technology Innovator
-<div align="center">
 
-# 🌈 ESWARAMOORTHI MAHALINGAM
 
-<img src="https://readme-typing-svg.demolab.com?font=Poppins&size=30&duration=1500&pause=800&color=FF0000&center=true&vCenter=true&width=850&lines=Research+Developer;AI+Lead;Corporate+Trainer;Technology+Innovator;Full+Stack+Developer"/>
-
-</div>
-
-</div>
-
----
 ---
 
 # 👨‍💻 About Me
