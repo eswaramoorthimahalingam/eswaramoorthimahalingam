@@ -6,13 +6,11 @@
 
 ### Research Developer • AI Lead • Corporate Trainer • Technology Innovator
 
-<p>
+<p align="center">
 
-<img src="https://komarev.com/ghpvc/?username=eswaramoorthimahalingam&style=for-the-badge&color=blue"/>
+<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&height=300&text=ESWARAMOORTHI%20MAHALINGAM&fontSize=52&animation=twinkling&fontAlignY=38&desc=Research%20Developer%20%7C%20AI%20Lead%20%7C%20Corporate%20Trainer&descAlignY=58&theme=tokyonight"/>
 
-<img src="https://img.shields.io/github/followers/eswaramoorthimahalingam?style=for-the-badge"/>
-
-<img src="https://img.shields.io/github/stars/eswaramoorthimahalingam?style=for-the-badge"/>
+<img src="https://readme-typing-svg.demolab.com?font=Poppins&weight=700&size=28&pause=1200&color=58A6FF&center=true&vCenter=true&width=1000&lines=Generative+AI;Agentic+AI;Cloud+Computing;Full+Stack+Development;Building+Real+World+AI+Products"/>
 
 </p>
 
@@ -45,14 +43,169 @@ Location    : Coimbatore, India
 
 ---
 
-# 💼 Experience
+# 💼 Professional Experience
 
-| Company | Position |
-|----------|----------|
-| Gateway Software Solutions | Research Developer |
-| Gateway Software Solutions | AI Lead |
-| Rotaract RID3203 | District Trainer |
-| Rotaract RID3203 | Corporate Trainer |
+<table>
+
+<tr>
+<td width="25%">
+
+### 🚀 Present
+
+</td>
+
+<td>
+
+## 🧠 Research Developer & AI Lead
+### 🏢 Gateway Software Solutions
+
+📍 Coimbatore, Tamil Nadu, India
+
+Building enterprise AI solutions, intelligent automation systems, cloud-native applications, and full-stack digital products.
+
+**Highlights**
+
+- 🤖 Generative AI & Agentic AI Development
+- 🧠 Enterprise AI Automation
+- ☁️ AWS & Google Cloud Solutions
+- ⚡ AI Workflow Engineering
+- 🌐 Full Stack Web Development
+- 🚀 Product Architecture & Deployment
+- 💡 Research & Product Innovation
+
+**Tech Stack**
+
+`Python` `Java` `Node.js` `React` `MongoDB` `AWS` `GCP` `Docker` `LLMs`
+
+</td>
+
+</tr>
+
+<tr>
+<td>
+
+### 💻 Previous
+
+</td>
+
+<td>
+
+## 🤖 Project Developer — Generative AI
+### 🏢 E-ONE Technologies
+
+Designed AI-powered business applications using OutSystems and modern AI workflows.
+
+- 🧠 Prompt Engineering
+- 🤖 AI Automation
+- ⚡ Low-Code Development
+- 🌍 Full Stack Applications
+
+</td>
+
+</tr>
+
+<tr>
+<td>
+
+### ☁️ Previous
+
+</td>
+
+<td>
+
+## ☁️ Cloud Technologies Developer
+### 🏢 Skillmaven
+
+Worked on cloud-native solutions using Amazon Web Services.
+
+- ☁️ AWS Services
+- 🚀 Cloud Deployment
+- 🔐 Infrastructure Management
+- 📈 Resource Optimization
+
+</td>
+
+</tr>
+
+<tr>
+<td>
+
+### 🚁 Previous
+
+</td>
+
+<td>
+
+## 🚁 Drone Technology Trainee
+### 🏢 Aarvee Enterprises
+
+Hands-on experience in UAV development and drone technology.
+
+- 🛰 Drone Assembly
+- 🛩 Flight Operations
+- 🔋 Embedded Systems
+- ⚙️ UAV Testing
+
+</td>
+
+</tr>
+
+</table>
+
+---
+
+# 🌟 Industry Product Experience
+
+| 🚀 Product | 💼 Role |
+|------------|---------|
+| 🏥 Rajah Hospital | AI Solutions Developer |
+| 🌿 Fruition InnoviX | Product Consultant |
+| 🍱 Menmitha Food Products | Technology Consultant |
+| 🕌 Aayubakwath | AI Lead |
+| 🎬 Studio Space | AI Lead & Associate Lead |
+| 🌱 YeaahDhum Iyarkaiyagam | AI Consultant |
+| 🪵 Ponni Wood Carving | AI Consultant |
+| 🥩 Fish & Meat Ecommerce | Full Stack Developer |
+| ⚽ BookYourTurf | AI Lead |
+| 📈 The Indian Commerce | AI Lead |
+
+---
+
+# 📊 Experience Snapshot
+
+```text
+🏢 Industry Experience      ████████████████
+
+🤖 Generative AI            ████████████████
+
+🧠 Agentic AI               ███████████████
+
+☁️ Cloud Computing          █████████████
+
+💻 Full Stack Development   ███████████████
+
+🚀 Product Development      ████████████████
+
+🎤 Corporate Training       ████████████████
+
+🔬 Research & Innovation    ████████████████
+```
+
+---
+
+## 🎯 Core Responsibilities
+
+- 🤖 AI Product Development
+- 🧠 Agentic AI Systems
+- 🚀 Startup Technology Consulting
+- ☁️ Cloud Architecture
+- 💻 Full Stack Engineering
+- 📊 AI Automation
+- 🔍 Research & Development
+- 🌐 Enterprise Software Solutions
+- 🎤 Corporate Training
+- 📚 Technical Workshops
+
 
 ---
 
@@ -111,32 +264,6 @@ Location    : Coimbatore, India
 ![AWS](https://img.shields.io/badge/AWS-232F3E?style=flat-square&logo=amazonaws)
 ![Google Cloud](https://img.shields.io/badge/GCP-4285F4?style=flat-square&logo=googlecloud)
 ![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker)
-
----
-
-## 📊 GitHub Analytics
-
-<p align="center">
-
-<img height="170" src="https://github-readme-stats.vercel.app/api?username=eswaramoorthimahalingam&show_icons=true&theme=tokyonight&hide_border=true&include_all_commits=true&count_private=true"/>
-
-<img height="170" src="https://streak-stats.demolab.com?user=eswaramoorthimahalingam&theme=tokyonight&hide_border=true"/>
-
-</p>
-
-<p align="center">
-
-<img width="42%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=eswaramoorthimahalingam&layout=compact&theme=tokyonight&hide_border=true"/>
-
-</p>
----
-## 📈 Contribution Graph
-
-<p align="center">
-
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=eswaramoorthimahalingam&theme=tokyo-night&hide_border=true"/>
-
-</p>
 
 ---
 
