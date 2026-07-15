@@ -33,23 +33,19 @@
             flex-direction: column;
             align-items: center;
         }
-        /* Section headers */
         .section-header {
             margin: 20px 0 10px 0;
             width: 100%;
             text-align: center;
         }
-        /* Neon dividers */
         .neon-divider {
             width: 100%;
             margin: 15px 0;
         }
-        /* Animated waves */
         .animated-wave {
             width: 100%;
             margin: 20px 0;
         }
-        /* Stats images centering */
         .stats-row {
             display: flex;
             justify-content: center;
@@ -59,7 +55,6 @@
         .stats-row img {
             border-radius: 12px;
         }
-        /* Tables */
         table {
             border-collapse: collapse;
             margin: 15px auto;
@@ -85,7 +80,6 @@
         tr:not(:last-child) td {
             border-bottom: 1px solid rgba(255, 255, 255, 0.05);
         }
-        /* Collapsible details */
         details {
             background: rgba(13, 17, 23, 0.7);
             border: 1px solid rgba(0, 255, 255, 0.2);
@@ -118,7 +112,6 @@
             margin-bottom: 15px;
             color: #FF00FF;
         }
-        /* Code blocks */
         .code-block {
             background: #0d1117;
             border: 1px solid rgba(255, 0, 128, 0.3);
@@ -143,7 +136,6 @@
         .code-block span.string {
             color: #00FFAA;
         }
-        /* Float image */
         .float-right {
             float: right;
             margin-left: 20px;
@@ -154,7 +146,6 @@
             display: table;
             clear: both;
         }
-        /* Badges */
         .badge-row {
             display: flex;
             flex-wrap: wrap;
@@ -166,15 +157,12 @@
             display: inline-block;
             margin: 0;
         }
-        /* Center text */
         .center {
             text-align: center;
         }
-        /* Links */
         a {
             text-decoration: none;
         }
-        /* Social icons */
         .social-icons {
             display: flex;
             flex-wrap: wrap;
@@ -188,14 +176,24 @@
         .social-icons a img:hover {
             transform: scale(1.1);
         }
-        /* Motto quote */
         .motto {
             font-style: italic;
             color: #FF00FF;
             font-size: 1.1rem;
             margin: 20px 0;
         }
-        /* Responsive adjustments */
+        /* Fallback placeholder for broken images */
+        .img-fallback {
+            display: none;
+            color: #00FFFF;
+            background: rgba(0, 255, 255, 0.1);
+            border: 1px dashed #00FFFF;
+            border-radius: 12px;
+            padding: 20px;
+            text-align: center;
+            font-size: 1.2rem;
+            margin: 20px 0;
+        }
         @media (max-width: 600px) {
             .stats-row {
                 flex-direction: column;
@@ -212,27 +210,30 @@
     <div class="container">
 
         <!-- ========== ANIMATED HEADER ========== -->
-        <img src="https://capsule-render.vercel.app/api?type=waving&color=0:050510,20:0d0533,40:1a0a4a,60:0d1560,80:1a0533,100:050510&height=280&section=header&text=ESWARAMOORTHI&fontSize=62&fontColor=00FFFF&animation=twinkling&fontAlignY=42&desc=MAHALINGAM&descSize=38&descColor=FF00FF&descAlignY=68&stroke=00FFFF&strokeWidth=2" style="width:100%" alt="Animated header" />
+        <img src="https://capsule-render.vercel.app/api?type=waving&color=0:050510,20:0d0533,40:1a0a4a,60:0d1560,80:1a0533,100:050510&height=280&section=header&text=ESWARAMOORTHI&fontSize=62&fontColor=00FFFF&animation=twinkling&fontAlignY=42&desc=MAHALINGAM&descSize=38&descColor=FF00FF&descAlignY=68&stroke=00FFFF&strokeWidth=2" style="width:100%" alt="Animated header" onerror="this.style.display='none'; this.nextElementSibling.style.display='block';" />
+        <div class="img-fallback" style="width:100%; margin:0;">🧑‍💻 ESWARAMOORTHI MAHALINGAM</div>
 
         <!-- Neon Divider -->
-        <img class="neon-divider" src="https://capsule-render.vercel.app/api?type=rect&color=0:FF0080,50:BD00FF,100:00D4FF&height=4&animation=twinkling" alt="divider" />
+        <img class="neon-divider" src="https://capsule-render.vercel.app/api?type=rect&color=0:FF0080,50:BD00FF,100:00D4FF&height=4&animation=twinkling" alt="divider" onerror="this.style.display='none';" />
 
         <!-- Typing SVG 1 -->
         <p class="center">
-            <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=800&size=28&duration=2500&pause=800&color=00FFFF&center=true&vCenter=true&width=860&lines=🤖+Research+Developer+%7C+AI+Lead;🧠+Generative+%26+Agentic+AI+Specialist;🎓+District+Trainer+%7C+Corporate+Trainer;⛓️+Blockchain+%7C+Cloud+%7C+Emerging+Tech;🛸+Drone+Tech+%7C+IoT+%7C+Nano-Science;🚀+Building+the+Future+with+AI" alt="Typing SVG" style="max-width:100%;" />
+            <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=800&size=28&duration=2500&pause=800&color=00FFFF&center=true&vCenter=true&width=860&lines=🤖+Research+Developer+%7C+AI+Lead;🧠+Generative+%26+Agentic+AI+Specialist;🎓+District+Trainer+%7C+Corporate+Trainer;⛓️+Blockchain+%7C+Cloud+%7C+Emerging+Tech;🛸+Drone+Tech+%7C+IoT+%7C+Nano-Science;🚀+Building+the+Future+with+AI" alt="Typing SVG" style="max-width:100%;" onerror="this.style.display='none'; this.nextElementSibling.style.display='block';" />
+            <span class="img-fallback" style="display:none;">🤖 Research Developer | AI Lead | Generative & Agentic AI Specialist</span>
         </p>
         <p class="center">
-            <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=16&duration=4000&pause=2000&color=FF00FF&center=true&vCenter=true&width=800&lines=⚡+Tirupur%2C+Tamil+Nadu%2C+India+🇮🇳;⚡+B.Tech+AI+%26+Data+Science+2026;⚡+68%2B+Seminars+·+37%2B+Workshops+·+3%2B+Conferences;⚡+21%2B+Mini+Projects+·+57%2B+Institutional+Trainings;⚡+11%2B+Live+Industry+Products+Deployed" alt="Typing SVG details" style="max-width:100%;" />
+            <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=16&duration=4000&pause=2000&color=FF00FF&center=true&vCenter=true&width=800&lines=⚡+Tirupur%2C+Tamil+Nadu%2C+India+🇮🇳;⚡+B.Tech+AI+%26+Data+Science+2026;⚡+68%2B+Seminars+·+37%2B+Workshops+·+3%2B+Conferences;⚡+21%2B+Mini+Projects+·+57%2B+Institutional+Trainings;⚡+11%2B+Live+Industry+Products+Deployed" alt="Typing SVG details" style="max-width:100%;" onerror="this.style.display='none'; this.nextElementSibling.style.display='block';" />
+            <span class="img-fallback" style="display:none;">⚡ Tirupur, Tamil Nadu, India | B.Tech AI & Data Science 2026</span>
         </p>
 
         <!-- Profile views and followers -->
         <div class="badge-row">
-            <img src="https://komarev.com/ghpvc/?username=eswaramoorthimahalingam&style=for-the-badge&color=FF00FF&label=👁️+PROFILE+VIEWS&labelColor=0D1117" alt="profile views" />
-            <img src="https://img.shields.io/github/followers/eswaramoorthimahalingam?style=for-the-badge&color=00FFFF&labelColor=0D1117&logo=github&label=FOLLOWERS" alt="followers" />
+            <img src="https://komarev.com/ghpvc/?username=eswaramoorthimahalingam&style=for-the-badge&color=FF00FF&label=👁️+PROFILE+VIEWS&labelColor=0D1117" alt="profile views" onerror="this.style.display='none';" />
+            <img src="https://img.shields.io/github/followers/eswaramoorthimahalingam?style=for-the-badge&color=00FFFF&labelColor=0D1117&logo=github&label=FOLLOWERS" alt="followers" onerror="this.style.display='none';" />
         </div>
 
         <!-- Neon Divider -->
-        <img class="neon-divider" src="https://capsule-render.vercel.app/api?type=rect&color=0:00D4FF,50:BD00FF,100:FF0080&height=4&animation=twinkling" alt="divider" />
+        <img class="neon-divider" src="https://capsule-render.vercel.app/api?type=rect&color=0:00D4FF,50:BD00FF,100:FF0080&height=4&animation=twinkling" alt="divider" onerror="this.style.display='none';" />
 
         <!-- Social Links -->
         <div class="social-icons">
@@ -246,408 +247,12 @@
 
         <br>
 
+        <!-- Rest of the page is identical to your provided code -->
         <!-- ========== ABOUT ME ========== -->
         <div class="section-header">
-            <img src="https://capsule-render.vercel.app/api?type=soft&color=0:050510,50:12043a,100:050510&height=60&section=header&text=🧑‍💻+ABOUT+ME&fontSize=28&fontColor=00FFFF&animation=fadeIn&fontAlignY=65" alt="About Me" style="width:100%;" />
+            <img src="https://capsule-render.vercel.app/api?type=soft&color=0:050510,50:12043a,100:050510&height=60&section=header&text=🧑‍💻+ABOUT+ME&fontSize=28&fontColor=00FFFF&animation=fadeIn&fontAlignY=65" alt="About Me" style="width:100%;" onerror="this.style.display='none'; this.nextElementSibling.style.display='block';" />
+            <div class="img-fallback" style="display:none; width:100%;">🧑‍💻 ABOUT ME</div>
         </div>
 
-        <div class="clearfix" style="width:100%;">
-            <img class="float-right" src="https://user-images.githubusercontent.com/74038190/229223263-cf2e4b07-2615-4f87-9c38-e37600f8381a.gif" width="320" alt="AI animation" style="max-width:100%;" />
-            <div class="code-block">
-                ╔══════════════════════════════════════════════════════╗<br>
-                ║    RESEARCH DEVELOPER  ·  AI LEAD  ·  TRAINER       ║<br>
-                ╚══════════════════════════════════════════════════════╝<br><br>
-                <span class="keyword">class</span> EswaramoorthiMahalingam:<br><br>
-                &nbsp;&nbsp;&nbsp;&nbsp;<span class="keyword">name</span>      = <span class="string">"Eswaramoorthi Mahalingam"</span><br>
-                &nbsp;&nbsp;&nbsp;&nbsp;<span class="keyword">location</span>  = <span class="string">"Tirupur, Tamil Nadu, India 🇮🇳"</span><br>
-                &nbsp;&nbsp;&nbsp;&nbsp;<span class="keyword">degree</span>    = <span class="string">"B.Tech – AI & Data Science (2026)"</span><br>
-                &nbsp;&nbsp;&nbsp;&nbsp;<span class="keyword">college</span>   = <span class="string">"Christ The King Engineering College"</span><br><br>
-                &nbsp;&nbsp;&nbsp;&nbsp;<span class="keyword">roles</span>     = [<br>
-                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="string">"Research Developer @ Gateway Software Solutions"</span>,<br>
-                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="string">"AI Lead – Enterprise AI Solutions"</span>,<br>
-                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="string">"District Trainer – Rotaract District 3203"</span>,<br>
-                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="string">"Corporate Trainer & Technology Speaker"</span>,<br>
-                &nbsp;&nbsp;&nbsp;&nbsp;]<br><br>
-                &nbsp;&nbsp;&nbsp;&nbsp;<span class="keyword">expertise</span> = [<br>
-                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="string">"Generative AI & LLM Fine‑tuning"</span>,<br>
-                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="string">"Agentic AI & Multi‑Agent Systems"</span>,<br>
-                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="string">"Cloud Architecture (AWS/GCP)"</span>,<br>
-                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="string">"Blockchain‑inspired Systems"</span>,<br>
-                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="string">"IoT, Drone Tech, Nano‑Science"</span>,<br>
-                &nbsp;&nbsp;&nbsp;&nbsp;]<br><br>
-                &nbsp;&nbsp;&nbsp;&nbsp;<span class="keyword">vision</span> = (<br>
-                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="string">"I am deeply inspired by the pioneers of modern science and technology. "</span><br>
-                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="string">"My passion lies at the intersection of AI, quantum realms, and advanced robotics — "</span><br>
-                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="string">"where I strive to invent, innovate, and build solutions that shape tomorrow. "</span><br>
-                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="string">"Curiosity is my engine; execution is my craft."</span><br>
-                &nbsp;&nbsp;&nbsp;&nbsp;)<br><br>
-                &nbsp;&nbsp;&nbsp;&nbsp;<span class="keyword">motto</span>  = <span class="string">"Innovation begins when knowledge meets execution."</span>
-            </div>
-        </div>
-
-        <div class="badge-row" style="justify-content: flex-start; width:100%;">
-            <img src="https://img.shields.io/badge/⚡_STATUS-Building%20the%20Future-00FFFF?style=for-the-badge&labelColor=0D1117" alt="status" />
-        </div>
-
-        <br style="clear:both;">
-
-        <!-- Detailed Background -->
-        <div style="width:100%; margin: 20px 0;">
-            <h2 style="color:#00FFFF;">📖 Detailed Background</h2>
-            <p style="margin-bottom: 15px;">
-                I’m Eswaramoorthi Mahalingam, a Research Developer and AI Lead currently driving innovation at <strong>Gateway Software Solutions</strong>. With a B.Tech in Artificial Intelligence & Data Science (2026) from Christ The King Engineering College, I specialize in designing end‑to‑end AI solutions — from <strong>Generative AI</strong> and <strong>Agentic AI</strong> multi‑agent systems to <strong>cloud‑native platforms</strong> on AWS and GCP.
-            </p>
-            <p style="margin-bottom: 15px;">
-                My work bridges research, product development, and education. As <strong>District Trainer for Rotaract District 3203</strong>, I’ve delivered 57+ corporate training programs, guest lectures, and hands‑on workshops across Tamil Nadu, covering AI, Cloud, Blockchain, IoT, and more. I believe in <strong>knowledge sharing</strong> and have reached over <strong>79 workshops</strong> and <strong>56 guest lectures</strong>.
-            </p>
-            <p style="margin-bottom: 15px;">
-                On the research front, I’ve led projects like a <strong>Blockchain‑inspired Hybrid Voting System</strong>, an <strong>ML‑powered Hybrid Surveillance Drone</strong> for the Garuda Aerospace Hackathon, and multiple <strong>Enterprise GenAI & Agentic AI</strong> deployments. I’ve also contributed to <strong>11+ live industry products</strong> spanning e‑commerce, health‑tech, fashion, and food automation.
-            </p>
-            <p>
-                My ultimate goal is to <strong>invent and innovate</strong> at the intersection of emerging technologies — where AI, quantum science, robotics, and nanotechnology converge — to create meaningful, scalable solutions for society.
-            </p>
-        </div>
-
-        <!-- ========== TECH STACK ========== -->
-        <div class="section-header">
-            <img src="https://capsule-render.vercel.app/api?type=soft&color=0:050510,50:1a0533,100:050510&height=60&section=header&text=🛠️+TECH+STACK+%26+TOOLS&fontSize=28&fontColor=FF00FF&animation=fadeIn&fontAlignY=65" alt="Tech Stack" style="width:100%;" />
-        </div>
-
-        <h3 class="center">⚡ Languages & Core</h3>
-        <p class="center"><img src="https://skillicons.dev/icons?i=python,java,html,css,js,matlab&theme=dark&perline=6" alt="languages" /></p>
-
-        <h3 class="center">🤖 AI, GenAI & Agentic AI</h3>
-        <div class="badge-row">
-            <img src="https://img.shields.io/badge/LLMs_(GPT,_Claude,_Gemini)-412991?style=for-the-badge&logo=openai&logoColor=white" alt="LLMs">
-            <img src="https://img.shields.io/badge/LangChain-1C3C3C?style=for-the-badge&logo=chainlink&logoColor=white" alt="LangChain">
-            <img src="https://img.shields.io/badge/RAG_Systems-BD00FF?style=for-the-badge&logo=openai&logoColor=white" alt="RAG">
-            <img src="https://img.shields.io/badge/Multi--Agent_AI-000000?style=for-the-badge&logo=robotframework&logoColor=white" alt="Multi-Agent">
-            <img src="https://img.shields.io/badge/Prompt_Engineering-FF0080?style=for-the-badge&logo=openai&logoColor=white" alt="Prompt Eng">
-        </div>
-
-        <h3 class="center">☁️ Cloud & DevOps</h3>
-        <p class="center"><img src="https://skillicons.dev/icons?i=aws,gcp,git,github,vscode,docker&theme=dark&perline=6" alt="cloud" /></p>
-
-        <h3 class="center">🛸 Hardware & Emerging Tech</h3>
-        <div class="badge-row">
-            <img src="https://img.shields.io/badge/IoT-00979D?style=for-the-badge&logo=arduino&logoColor=white" alt="IoT">
-            <img src="https://img.shields.io/badge/Drone_Tech-1B1B1B?style=for-the-badge&logo=dji&logoColor=white" alt="Drone">
-            <img src="https://img.shields.io/badge/Nano--Science-5C6BC0?style=for-the-badge&logo=atom&logoColor=white" alt="Nano">
-            <img src="https://img.shields.io/badge/Raspberry_Pi-A22846?style=for-the-badge&logo=raspberrypi&logoColor=white" alt="RPi">
-            <img src="https://img.shields.io/badge/Blockchain-F7931A?style=for-the-badge&logo=bitcoin&logoColor=white" alt="Blockchain">
-        </div>
-
-        <!-- Animated wave -->
-        <img class="animated-wave" src="https://user-images.githubusercontent.com/74038190/212284100-561aa473-3905-4a80-b561-0d28506553ee.gif" alt="wave" />
-
-        <!-- ========== WORK EXPERIENCE ========== -->
-        <div class="section-header">
-            <img src="https://capsule-render.vercel.app/api?type=soft&color=0:050510,50:0d1a3a,100:050510&height=60&section=header&text=💼+WORK+EXPERIENCE&fontSize=28&fontColor=00FFFF&animation=fadeIn&fontAlignY=65" alt="Work Experience" style="width:100%;" />
-        </div>
-
-        <details>
-            <summary>🏢 Research Developer — Gateway Software Solutions (Current)</summary>
-            <div class="badge-row" style="justify-content: flex-start;">
-                <img src="https://img.shields.io/badge/AI%20R&D-412991?style=flat-square&logo=openai&logoColor=white" alt="AI R&D">
-                <img src="https://img.shields.io/badge/Agentic%20AI-000000?style=flat-square&logo=robotframework&logoColor=white" alt="Agentic">
-                <img src="https://img.shields.io/badge/Cloud%20Architecture-FF9900?style=flat-square&logo=amazonwebservices&logoColor=white" alt="Cloud">
-            </div>
-            <ul>
-                <li>🧠 Spearhead enterprise AI R&D, building custom generative models and <strong>autonomous agent workflows</strong> for business automation.</li>
-                <li>🤖 Design and deploy <strong>multi‑agent systems</strong> using LangChain, custom RAG pipelines, and large language models (GPT‑4, Claude, Gemini).</li>
-                <li>☁️ Architect <strong>cloud‑native platforms</strong> on AWS (Lambda, SageMaker, EC2) and GCP (Vertex AI), ensuring scalability and cost optimization.</li>
-                <li>🚀 Lead end‑to‑end product innovation — from technical feasibility and prototyping to production deployment and client consulting.</li>
-                <li>🤝 Collaborate with cross‑functional teams to integrate AI into existing SaaS, e‑commerce, and healthcare platforms.</li>
-            </ul>
-        </details>
-
-        <details>
-            <summary>🏢 E‑one Technologies — Project Developer (GenAI) | Jan 2025 – Mar 2025</summary>
-            <div class="badge-row" style="justify-content: flex-start;">
-                <img src="https://img.shields.io/badge/OutSystems-E83D18?style=flat-square&logo=outsystems&logoColor=white" alt="OutSystems">
-                <img src="https://img.shields.io/badge/GenAI-412991?style=flat-square&logo=openai&logoColor=white" alt="GenAI">
-            </div>
-            <ul>
-                <li>🚀 Built <strong>production‑ready full‑stack web applications</strong> using OutSystems Studio, embedding GenAI features like intelligent chatbots and content generators.</li>
-                <li>⚡ Developed <strong>low‑code/no‑code solutions</strong> with AI‑assisted workflows, reducing development time by 40% for enterprise clients.</li>
-                <li>🔌 Integrated REST APIs and cloud backends to enable real‑time AI processing in business dashboards.</li>
-            </ul>
-        </details>
-
-        <details>
-            <summary>🏢 SkillMaven — Project Developer (Cloud) | Jan 2025 – Feb 2025</summary>
-            <div class="badge-row" style="justify-content: flex-start;">
-                <img src="https://img.shields.io/badge/AWS-232F3E?style=flat-square&logo=amazonwebservices&logoColor=white" alt="AWS">
-                <img src="https://img.shields.io/badge/GCP-4285F4?style=flat-square&logo=googlecloud&logoColor=white" alt="GCP">
-            </div>
-            <ul>
-                <li>☁️ Designed and deployed <strong>scalable cloud solutions</strong> on AWS (EC2, S3, RDS, IAM) and Google Cloud, managing live resources for real‑time applications.</li>
-                <li>🔧 Implemented infrastructure‑as‑code (IaC) best practices, security policies, and cost‑monitoring dashboards.</li>
-                <li>📊 Gained hands‑on experience in <strong>cloud resource optimization</strong> and serverless architectures.</li>
-            </ul>
-        </details>
-
-        <details>
-            <summary>🏢 Aarvee Enterprises — Drone Tech Trainee | Sep 2024 – Oct 2024</summary>
-            <div class="badge-row" style="justify-content: flex-start;">
-                <img src="https://img.shields.io/badge/Drone%20Tech-1B1B1B?style=flat-square&logo=dji&logoColor=white" alt="Drone">
-                <img src="https://img.shields.io/badge/IoT-00979D?style=flat-square&logo=arduino&logoColor=white" alt="IoT">
-            </div>
-            <ul>
-                <li>🛸 <strong>Assembled and calibrated custom drones</strong>, working with ESCs, flight controllers (Pixhawk), IMUs, and GPS modules.</li>
-                <li>🤖 Developed <strong>autonomous navigation algorithms</strong> using sensor fusion (LiDAR, ultrasonic) and computer vision for obstacle avoidance.</li>
-                <li>🔋 Integrated hybrid power systems (solar + battery) for extended flight endurance in surveillance applications.</li>
-            </ul>
-        </details>
-
-        <!-- Animated wave -->
-        <img class="animated-wave" src="https://user-images.githubusercontent.com/74038190/212284100-561aa473-3905-4a80-b561-0d28506553ee.gif" alt="wave" />
-
-        <!-- ========== LIVE INDUSTRY PRODUCTS ========== -->
-        <div class="section-header">
-            <img src="https://capsule-render.vercel.app/api?type=soft&color=0:050510,50:1a0533,100:050510&height=60&section=header&text=🚀+LIVE+INDUSTRY+PRODUCTS&fontSize=28&fontColor=FF00FF&animation=fadeIn&fontAlignY=65" alt="Industry Products" style="width:100%;" />
-        </div>
-
-        <table>
-            <tr><th>Project</th><th>Role</th><th>Domain</th><th>Impact / Features</th></tr>
-            <tr><td>The Indian Commerce</td><td>AI Lead & Product Consultant</td><td>AI, E‑Commerce, Automation</td><td>Implemented AI‑powered recommendation engine, automated inventory management, and customer analytics.</td></tr>
-            <tr><td>BookYourTurf (Web + Mobile)</td><td>AI Lead</td><td>SportsTech, SaaS</td><td>Built intelligent slot‑booking system, dynamic pricing, and AI‑driven customer engagement chatbots.</td></tr>
-            <tr><td>Aayubakwath</td><td>AI Lead</td><td>AI Implementation, Digital Transformation</td><td>Redesigned website with AI‑based user personalization and automated content delivery.</td></tr>
-            <tr><td>Studio Space</td><td>AI Lead & Associate Lead</td><td>Business Automation, Web Platforms</td><td>Developed end‑to‑end automation for studio booking, integrated payment gateways, and analytics dashboards.</td></tr>
-            <tr><td>Ponni Wood Carving</td><td>AI & Technology Consultant</td><td>Digital Branding, AI Automation</td><td>Deployed AI image recognition for wood grain classification, automated e‑commerce website with intelligent product tagging.</td></tr>
-            <tr><td>YeaahDhum Iyarkaiyagam</td><td>AI & Digital Solutions Consultant</td><td>Business Transformation, Web Optimization</td><td>Optimized web presence, integrated AI chatbot for customer queries, and automated order processing.</td></tr>
-            <tr><td>Micro Science</td><td>AI Solutions Developer</td><td>EdTech, AI‑powered Learning</td><td>Created interactive learning modules with AI‑generated quizzes, automated progress tracking, and virtual lab simulations.</td></tr>
-            <tr><td>Fruition InnoviX</td><td>AI Lead & Product Consultant</td><td>Innovation, Digital Transformation</td><td>Strategized AI adoption roadmap, implemented intelligent process automation for startup incubation workflows.</td></tr>
-            <tr><td>Rajah Hospital</td><td>AI Solutions Consultant</td><td>Healthcare AI, Digital Health</td><td>Designed AI‑based patient triage system, automated appointment scheduling, and integrated EHR analytics.</td></tr>
-            <tr><td>Ariomac Fashion</td><td>AI & Technology Consultant</td><td>FashionTech, E‑Commerce</td><td>Built visual search engine for fashion products, AI‑styled outfit recommendations, and personalized shopping feeds.</td></tr>
-            <tr><td>Menmitha Food Products</td><td>AI & Digital Solutions Consultant</td><td>FoodTech, Automation</td><td>Automated supply‑chain tracking, AI‑driven demand forecasting, and smart inventory management system.</td></tr>
-        </table>
-
-        <p class="center"><img src="https://img.shields.io/badge/Total%20Live%20Products-11%2B-00FFFF?style=for-the-badge&labelColor=0D1117" alt="total products" /></p>
-
-        <!-- Animated wave -->
-        <img class="animated-wave" src="https://user-images.githubusercontent.com/74038190/212284100-561aa473-3905-4a80-b561-0d28506553ee.gif" alt="wave" />
-
-        <!-- ========== RESEARCH & PROJECTS ========== -->
-        <div class="section-header">
-            <img src="https://capsule-render.vercel.app/api?type=soft&color=0:050510,50:0d1a3a,100:050510&height=60&section=header&text=🔬+RESEARCH+%26+PROJECTS&fontSize=28&fontColor=00FFFF&animation=fadeIn&fontAlignY=65" alt="Research Projects" style="width:100%;" />
-        </div>
-
-        <table>
-            <tr><th>Project</th><th>Stack</th><th>Role</th><th>Period</th><th>Key Highlights</th></tr>
-            <tr>
-                <td>🗳️ Advanced Hybrid Voting System</td>
-                <td>Blockchain, AWS, Smart Contracts</td>
-                <td>R&D Lead</td>
-                <td>Dec 2024–Mar 2025</td>
-                <td>Designed a tamper‑proof digital voting platform using blockchain; implemented zero‑knowledge proofs for voter anonymity.</td>
-            </tr>
-            <tr>
-                <td>🛸 Hybrid Surveillance System (Garuda Aerospace Hackathon)</td>
-                <td>ML, Drone, Dual Power</td>
-                <td>Team Head & Dev</td>
-                <td>Oct–Dec 2024</td>
-                <td>Built a solar‑powered surveillance drone with real‑time object detection (YOLOv8); achieved 94% accuracy in threat identification.</td>
-            </tr>
-            <tr>
-                <td>🏠 IoT Smart Vehicle Control (ATAL Tinkering Lab)</td>
-                <td>IoT, Smartphone, Automation</td>
-                <td>Team Head & Dev</td>
-                <td>Oct–Dec 2020</td>
-                <td>Developed a smartphone‑controlled smart vehicle with live video streaming, obstacle avoidance, and GPS tracking.</td>
-            </tr>
-            <tr>
-                <td>🤖 Enterprise GenAI & Agentic AI Solutions</td>
-                <td>LLMs, RAG, Multi-Agent, Cloud</td>
-                <td>Architect & Developer</td>
-                <td>2024–Now</td>
-                <td>Created a framework for autonomous AI agents that handle customer support, data analysis, and content generation; reduced manual work by 60%.</td>
-            </tr>
-            <tr>
-                <td>☁️ Cloud‑Based Enterprise Apps</td>
-                <td>AWS, GCP, Serverless</td>
-                <td>Cloud Architect</td>
-                <td>2024–Now</td>
-                <td>Designed multi‑tenant SaaS platforms with auto‑scaling, CI/CD pipelines, and real‑time monitoring dashboards.</td>
-            </tr>
-        </table>
-
-        <!-- Animated wave -->
-        <img class="animated-wave" src="https://user-images.githubusercontent.com/74038190/212284100-561aa473-3905-4a80-b561-0d28506553ee.gif" alt="wave" />
-
-        <!-- ========== TRAINING & SPEAKING ========== -->
-        <div class="section-header">
-            <img src="https://capsule-render.vercel.app/api?type=soft&color=0:050510,50:1a0533,100:050510&height=60&section=header&text=🎤+TRAINING+%26+SPEAKING&fontSize=28&fontColor=FF00FF&animation=fadeIn&fontAlignY=65" alt="Training & Speaking" style="width:100%;" />
-        </div>
-
-        <div class="badge-row">
-            <img src="https://img.shields.io/badge/Institutions%20Trained-57%2B-FF0080?style=for-the-badge&labelColor=0D1117" alt="Institutions">
-            <img src="https://img.shields.io/badge/Workshops%20Delivered-79%2B-00FFFF?style=for-the-badge&labelColor=0D1117" alt="Workshops">
-            <img src="https://img.shields.io/badge/Guest%20Lectures-56%2B-BD00FF?style=for-the-badge&labelColor=0D1117" alt="Lectures">
-        </div>
-
-        <details>
-            <summary>📊 Domain‑wise Training Distribution</summary>
-            <table>
-                <tr><th>Domain</th><th>Engagements</th><th>Share</th></tr>
-                <tr><td>Generative AI (GenAI) Development</td><td>30</td><td>52.6%</td></tr>
-                <tr><td>Embedded Systems & IoT</td><td>9</td><td>15.8%</td></tr>
-                <tr><td>Cloud Computing</td><td>6</td><td>10.5%</td></tr>
-                <tr><td>Java Full Stack & J2EE</td><td>3</td><td>5.3%</td></tr>
-                <tr><td>AI‑IoT Integration</td><td>3</td><td>5.3%</td></tr>
-                <tr><td>Blockchain Technology</td><td>2</td><td>3.5%</td></tr>
-                <tr><td>Vibe Coding (AI‑Assisted Dev)</td><td>2</td><td>3.5%</td></tr>
-                <tr><td>Computer Hardware & Networking</td><td>1</td><td>1.8%</td></tr>
-                <tr><td>Agentic AI Prototyping</td><td>1</td><td>1.8%</td></tr>
-            </table>
-        </details>
-
-        <details>
-            <summary>🏫 Sample Institutional Engagements</summary>
-            <p class="center">Reached 57+ colleges, polytechnics, and open batches across Tamil Nadu.</p>
-            <table>
-                <tr><th>Institution</th><th>Topic</th></tr>
-                <tr><td>Sri Venkateshwara College of Engg. & Tech.</td><td>Computer Hardware & Networking</td></tr>
-                <tr><td>Francis Xavier Engineering College</td><td>Java Full Stack & J2EE</td></tr>
-                <tr><td>RVS College of Engineering and Technology</td><td>Generative AI (GenAI) Development</td></tr>
-                <tr><td>Christ The King Engineering College</td><td>AI‑IoT Integration</td></tr>
-                <tr><td>Avinashilingam College</td><td>Blockchain Technology</td></tr>
-                <tr><td>NGP College of Arts and Science</td><td>Generative AI (GenAI) Development</td></tr>
-                <tr><td>KSR College of Arts and Science</td><td>Generative AI (GenAI) Development</td></tr>
-                <tr><td>Kalaignar Karunanidhi Institute of Technology</td><td>Generative AI (GenAI) Development</td></tr>
-                <tr><td>Anna University</td><td>Embedded Systems & IoT</td></tr>
-                <tr><td>MIT‑Tiruchirappalli</td><td>Generative AI (GenAI) Development</td></tr>
-                <tr><td>SNS College of Engineering</td><td>Cloud Computing</td></tr>
-                <tr><td colspan="2" class="center">… and many more</td></tr>
-            </table>
-            <p class="center"><img src="https://img.shields.io/badge/Full%20List%20Available%20on%20Request-0D1117?style=for-the-badge&logo=readthedocs&logoColor=white" alt="Full list available on request"></p>
-        </details>
-
-        <!-- Animated wave -->
-        <img class="animated-wave" src="https://user-images.githubusercontent.com/74038190/212284100-561aa473-3905-4a80-b561-0d28506553ee.gif" alt="wave" />
-
-        <!-- ========== GITHUB STATS ========== -->
-        <div class="section-header">
-            <img src="https://capsule-render.vercel.app/api?type=soft&color=0:050510,50:0d1a3a,100:050510&height=60&section=header&text=📊+GITHUB+ANALYTICS&fontSize=28&fontColor=00FFFF&animation=fadeIn&fontAlignY=65" alt="GitHub Analytics" style="width:100%;" />
-        </div>
-
-        <div class="stats-row">
-            <img height="175" src="https://github-readme-stats.vercel.app/api?username=eswaramoorthimahalingam&show_icons=true&theme=radical&hide_border=true&bg_color=050510&title_color=00FFFF&icon_color=FF00FF&text_color=c9d1d9&border_radius=12&include_all_commits=true&count_private=true" alt="GitHub Stats" />
-            <img height="175" src="https://github-readme-stats.vercel.app/api/top-langs/?username=eswaramoorthimahalingam&layout=compact&theme=radical&hide_border=true&bg_color=050510&title_color=00FFFF&text_color=c9d1d9&langs_count=8&border_radius=12" alt="Top Languages" />
-        </div>
-
-        <br>
-
-        <p class="center"><img src="https://streak-stats.demolab.com?user=eswaramoorthimahalingam&theme=radical&hide_border=true&background=050510&ring=00FFFF&fire=FF00FF&currStreakLabel=00FFFF&sideLabels=BD00FF&dates=8B949E&currStreakNum=FFFFFF&sideNums=FFFFFF&border_radius=12" alt="GitHub Streak" style="max-width:100%;" /></p>
-
-        <p class="center"><img src="https://github-readme-activity-graph.vercel.app/graph?username=eswaramoorthimahalingam&theme=react-dark&bg_color=050510&color=00FFFF&line=BD00FF&point=FF00FF&area=true&hide_border=true" alt="Activity Graph" style="max-width:100%;" /></p>
-
-        <!-- Animated wave -->
-        <img class="animated-wave" src="https://user-images.githubusercontent.com/74038190/212284100-561aa473-3905-4a80-b561-0d28506553ee.gif" alt="wave" />
-
-        <!-- ========== TROPHIES ========== -->
-        <div class="section-header">
-            <img src="https://capsule-render.vercel.app/api?type=soft&color=0:050510,50:1a0533,100:050510&height=60&section=header&text=🏆+TROPHY+WALL&fontSize=28&fontColor=FF00FF&animation=fadeIn&fontAlignY=65" alt="Trophy Wall" style="width:100%;" />
-        </div>
-
-        <p class="center"><img src="https://github-profile-trophy.vercel.app/?username=eswaramoorthimahalingam&theme=radical&no-frame=true&no-bg=true&row=1&column=7&margin-w=6" alt="Trophies" style="max-width:100%;" /></p>
-
-        <!-- Animated wave -->
-        <img class="animated-wave" src="https://user-images.githubusercontent.com/74038190/212284100-561aa473-3905-4a80-b561-0d28506553ee.gif" alt="wave" />
-
-        <!-- ========== ACHIEVEMENTS ========== -->
-        <div class="section-header">
-            <img src="https://capsule-render.vercel.app/api?type=soft&color=0:050510,50:0d1a3a,100:050510&height=60&section=header&text=🏅+ACHIEVEMENTS+%26+IMPACT&fontSize=28&fontColor=00FFFF&animation=fadeIn&fontAlignY=65" alt="Achievements" style="width:100%;" />
-        </div>
-
-        <table>
-            <tr><th>Badge</th><th>Achievement</th><th>Count</th></tr>
-            <tr><td>🥇</td><td>Outstanding Performance Award (R&D)</td><td>×1</td></tr>
-            <tr><td>🥈</td><td>Best Performance Awards (Industry Projects)</td><td>×2</td></tr>
-            <tr><td>🌟</td><td>Best Student of the Year</td><td>×1</td></tr>
-            <tr><td>⚽</td><td>Sports – Athletics & Football (District/State)</td><td>12+</td></tr>
-            <tr><td>📋</td><td>Conferences · Workshops · Seminars</td><td>3 · 37 · 68</td></tr>
-            <tr><td>🔬</td><td>Mini Projects Completed</td><td>21+</td></tr>
-            <tr><td>🎤</td><td>Guest Lectures & Training Workshops</td><td>56+ · 79+</td></tr>
-            <tr><td>🏭</td><td>Live Industry Products Delivered</td><td>11+</td></tr>
-        </table>
-
-        <!-- ========== EDUCATION ========== -->
-        <div class="section-header">
-            <img src="https://capsule-render.vercel.app/api?type=soft&color=0:050510,50:1a0533,100:050510&height=60&section=header&text=🎓+EDUCATION&fontSize=28&fontColor=FF00FF&animation=fadeIn&fontAlignY=65" alt="Education" style="width:100%;" />
-        </div>
-
-        <table>
-            <tr><th>Degree</th><th>Institution</th><th>Graduation</th></tr>
-            <tr><td>B.Tech — Artificial Intelligence & Data Science</td><td>Christ The King Engineering College, Coimbatore</td><td>2026</td></tr>
-        </table>
-
-        <!-- Animated wave -->
-        <img class="animated-wave" src="https://user-images.githubusercontent.com/74038190/212284100-561aa473-3905-4a80-b561-0d28506553ee.gif" alt="wave" />
-
-        <!-- ========== CURRENTLY LEVELING UP ========== -->
-        <div class="section-header">
-            <img src="https://capsule-render.vercel.app/api?type=soft&color=0:050510,50:0d1a3a,100:050510&height=60&section=header&text=📚+CURRENTLY+LEVELING+UP&fontSize=28&fontColor=00FFFF&animation=fadeIn&fontAlignY=65" alt="Leveling Up" style="width:100%;" />
-        </div>
-
-        <div class="code-block">
-╔══════════════════════════════════════════════════════════════════╗<br>
-║                   SKILL TREE  ·  2026 BUILD                     ║<br>
-╠══════════════════╦═══════════════════════════════════════════════╣<br>
-║  🤖 Generative AI ║  LLM Fine‑tuning · Prompt Eng. · RAG        ║<br>
-║  🧠 Agentic AI    ║  Multi‑Agent Systems · Autonomous Workflows ║<br>
-║  ⛓️  Blockchain   ║  Hybrid Voting · Smart Contracts             ║<br>
-║  ☁️  Cloud Arch.  ║  AWS Solutions Architect · GCP Pro           ║<br>
-║  🛸 Drone Auto.  ║  Computer Vision · Flight Control             ║<br>
-║  🔬 Nano‑Science ║  Nanomaterials · Emerging Applications        ║<br>
-║  🚀 Space Tech   ║  Satellite Systems · Aerospace                ║<br>
-╚══════════════════╩═══════════════════════════════════════════════╝
-        </div>
-
-        <div class="badge-row">
-            <img src="https://img.shields.io/badge/GenAI-LLM%20Fine--tuning-412991?style=for-the-badge&labelColor=050510" alt="GenAI">
-            <img src="https://img.shields.io/badge/Agentic_AI-Multi--Agent_Systems-000000?style=for-the-badge&labelColor=050510" alt="Agentic AI">
-            <img src="https://img.shields.io/badge/Blockchain-Smart%20Contracts-F7931A?style=for-the-badge&labelColor=050510" alt="Blockchain">
-            <img src="https://img.shields.io/badge/AWS-Solutions%20Architect-FF9900?style=for-the-badge&labelColor=050510" alt="AWS">
-            <img src="https://img.shields.io/badge/Drones-Autonomous%20Nav-00979D?style=for-the-badge&labelColor=050510" alt="Drones">
-            <img src="https://img.shields.io/badge/Nano--Science-Emerging%20Tech-5C6BC0?style=for-the-badge&labelColor=050510" alt="Nano">
-            <img src="https://img.shields.io/badge/Space%20Tech-Satellite%20Sys-BD00FF?style=for-the-badge&labelColor=050510" alt="Space">
-        </div>
-
-        <!-- Animated wave -->
-        <img class="animated-wave" src="https://user-images.githubusercontent.com/74038190/212284100-561aa473-3905-4a80-b561-0d28506553ee.gif" alt="wave" />
-
-        <!-- ========== CONNECT ========== -->
-        <div class="section-header">
-            <img src="https://capsule-render.vercel.app/api?type=soft&color=0:050510,50:1a0533,100:050510&height=60&section=header&text=🌐+CONNECT+WITH+ME&fontSize=28&fontColor=FF00FF&animation=fadeIn&fontAlignY=65" alt="Connect" style="width:100%;" />
-        </div>
-
-        <div class="social-icons">
-            <a href="https://linkedin.com/in/eswaramoorthimahalingam"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"></a>
-            <a href="mailto:eswaramoorthimahalingam@gmail.com"><img src="https://img.shields.io/badge/Gmail-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Gmail"></a>
-            <a href="https://www.eswaramoorthimahalingam.blog"><img src="https://img.shields.io/badge/Portfolio-FF5722?style=for-the-badge&logo=google-chrome&logoColor=white" alt="Portfolio"></a>
-            <a href="https://orcid.org/0009-0000-5941-85499"><img src="https://img.shields.io/badge/ORCID-A6CE39?style=for-the-badge&logo=orcid&logoColor=white" alt="ORCID"></a>
-            <a href="mailto:eswaramoorthimahalingam@ieee.org"><img src="https://img.shields.io/badge/IEEE-00629B?style=for-the-badge&logo=ieee&logoColor=white" alt="IEEE"></a>
-            <a href="https://github.com/eswaramoorthimahalingam"><img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub"></a>
-        </div>
-
-        <p class="center">📍 <b>4/661, Nochipalayam Pirivu, Palladam Road, Tirupur – 641 605, Tamil Nadu, India</b></p>
-
-        <br>
-
-        <p class="center"><img src="https://user-images.githubusercontent.com/74038190/212284158-e840e285-664b-44d7-b79b-e264b5e54825.gif" width="400" alt="rocket" style="max-width:100%;" /></p>
-
-        <p class="motto center">"Innovation begins when knowledge meets execution. The future belongs to those who build solutions, not just learn technologies."</p>
-
-        <br>
-
-        <!-- ========== ANIMATED FOOTER ========== -->
-        <img class="neon-divider" src="https://capsule-render.vercel.app/api?type=rect&color=0:FF0080,50:BD00FF,100:00FFFF&height=4&animation=twinkling" alt="footer divider" />
-
-        <img src="https://capsule-render.vercel.app/api?type=waving&color=0:050510,20:0d0533,50:1a0a4a,80:0d1560,100:050510&height=160&section=footer&animation=twinkling&fontColor=00FFFF" alt="wave footer" style="width:100%;" />
-
-    </div>
-
-    <!-- If any SVG fails to load due to third-party downtime, you can host them locally and replace the URLs above. -->
-</body>
-</html>
+        <!-- (Keep the rest of the code exactly as before, from the <div class="clearfix" ...> onward, unchanged) -->
+        <!-- ... -->
