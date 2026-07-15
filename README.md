@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="https://readme-typing-svg.demolab.com?font=Poppins&weight=700&size=34&pause=1000&color=00E5FF&center=true&vCenter=true&width=900&lines=Hi+👋+I'm+Eswaramoorthi+Mahalingam;Research+Developer+%7C+AI+Lead;Generative+AI+%7C+Agentic+AI;Corporate+Trainer;Building+Future+with+AI"/>
+<img src="https://readme-typing-svg.demolab.com?font=Poppins&weight=700&size=34&pause=1200&color=00E5FF&center=true&vCenter=true&width=900&lines=Hi+%F0%9F%91%8B+I'm+Eswaramoorthi+Mahalingam;Research+Developer+%7C+AI+Lead;Generative+AI+%7C+Agentic+AI;Corporate+Trainer+%7C+Technology+Speaker;Building+AI+Solutions+for+Tomorrow" />
 
 # 🚀 ESWARAMOORTHI MAHALINGAM
 
@@ -8,22 +8,17 @@
 
 <p>
 
-<a href="https://github.com/eswaramoorthimahalingam">
-<img src="https://komarev.com/ghpvc/?username=eswaramoorthimahalingam&style=for-the-badge&color=0e75b6"/>
-</a>
+<img src="https://komarev.com/ghpvc/?username=eswaramoorthimahalingam&style=for-the-badge&color=blue"/>
 
-<a href="https://github.com/eswaramoorthimahalingam?tab=followers">
 <img src="https://img.shields.io/github/followers/eswaramoorthimahalingam?style=for-the-badge"/>
-</a>
 
-<a href="https://linkedin.com/in/eswaramoorthimahalingam">
-<img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin"/>
-</a>
+<img src="https://img.shields.io/github/stars/eswaramoorthimahalingam?style=for-the-badge"/>
 
 </p>
 
 </div>
 
+---
 ---
 
 # 👨‍💻 About Me
@@ -63,28 +58,26 @@ Location    : Coimbatore, India
 
 # 🌐 Featured Client Projects
 
-| Project | Live |
-|---------|------|
-| Fruition InnoviX | https://fruition-innovix-god-mode.vercel.app |
-| Rajah Hospital | https://rajahhospitalcbe.com |
-| Ariomac Fashion | https://ariomac-fashion.vercel.app |
-| Menmitha Food Products | Coming Soon |
+| 🏢 Client | 🔗 Live Website |
+|-----------|-----------------|
+| 🏥 Rajah Hospital | 🌐 https://rajahhospitalcbe.com |
+| 🍱 Menmitha Food Products | 🌐 https://menmithafoodproducts.com |
+| 🕌 Aayubakwath | 🌐 https://aayubakwath.com |
+| 🌿 YeaahDhum Iyarkaiyagam | 🌐 https://www.yeaahdhum.com |
+| 🎬 Studio Space | 🌐 https://www.studiospace.online |
 
 ---
 
-# 🌍 Live Projects
+# 🚀 Live Projects
 
-| Website | Link |
-|---------|------|
-| Aayubakwath | https://aayubakwath.com |
-| YeaahDhum | https://www.yeaahdhum.com |
-| Rajah Hospital | https://rajahhospitalcbe.com |
-| Aaradhana Photography | https://aaradhana-photography-web.vercel.app |
-| Ariomac Fashion | https://ariomac-fashion.vercel.app |
-| Fruition InnoviX | https://fruition-innovix-god-mode.vercel.app |
-| Studio Space | https://www.studiospace.online |
-| Ponni Wood Carving | https://ponni-wood-carving.vercel.app |
-| Fish & Meat Ecommerce | https://fish-meat-ecommerce.vercel.app |
+| 💻 Project | 🔗 Live Demo |
+|------------|--------------|
+| 🌿 Fruition InnoviX | 🌐 https://fruition-innovix-god-mode.vercel.app |
+| 👗 Ariomac Fashion | 🌐 https://ariomac-fashion.vercel.app |
+| 📸 Aaradhana Photography | 🌐 https://aaradhana-photography-web.vercel.app |
+| 🪵 Ponni Wood Carving | 🌐 https://ponni-wood-carving.vercel.app |
+| 🥩 Fish & Meat Ecommerce | 🌐 https://fish-meat-ecommerce.vercel.app |
+
 
 ---
 
@@ -121,19 +114,19 @@ Location    : Coimbatore, India
 
 ---
 
-# 📈 GitHub Statistics
+## 📊 GitHub Analytics
 
 <p align="center">
 
-<img width="48%" src="https://github-readme-stats.vercel.app/api?username=eswaramoorthimahalingam&show_icons=true&theme=tokyonight"/>
+<img width="49%" src="https://github-readme-stats.vercel.app/api?username=eswaramoorthimahalingam&show_icons=true&theme=tokyonight&hide_border=true&count_private=true"/>
 
-<img width="48%" src="https://github-readme-streak-stats.herokuapp.com/?user=eswaramoorthimahalingam&theme=tokyonight"/>
+<img width="49%" src="https://github-readme-streak-stats-eight.vercel.app/?user=eswaramoorthimahalingam&theme=tokyonight&hide_border=true"/>
 
 </p>
 
 <p align="center">
 
-<img width="50%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=eswaramoorthimahalingam&layout=compact&theme=tokyonight"/>
+<img width="40%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=eswaramoorthimahalingam&layout=compact&theme=tokyonight&hide_border=true"/>
 
 </p>
 
