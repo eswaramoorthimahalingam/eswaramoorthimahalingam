@@ -118,19 +118,34 @@ Location    : Coimbatore, India
 
 <p align="center">
 
-<img width="49%" src="https://github-readme-stats.vercel.app/api?username=eswaramoorthimahalingam&show_icons=true&theme=tokyonight&hide_border=true&count_private=true"/>
+<img height="170" src="https://github-readme-stats.vercel.app/api?username=eswaramoorthimahalingam&show_icons=true&theme=tokyonight&hide_border=true&include_all_commits=true&count_private=true"/>
 
-<img width="49%" src="https://github-readme-streak-stats-eight.vercel.app/?user=eswaramoorthimahalingam&theme=tokyonight&hide_border=true"/>
+<img height="170" src="https://streak-stats.demolab.com?user=eswaramoorthimahalingam&theme=tokyonight&hide_border=true"/>
 
 </p>
 
 <p align="center">
 
-<img width="40%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=eswaramoorthimahalingam&layout=compact&theme=tokyonight&hide_border=true"/>
+<img width="42%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=eswaramoorthimahalingam&layout=compact&theme=tokyonight&hide_border=true"/>
+
+</p>
+---
+## 📈 Contribution Graph
+
+<p align="center">
+
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=eswaramoorthimahalingam&theme=tokyo-night&hide_border=true"/>
 
 </p>
 
 ---
+## 🐍 Contribution Snake
+
+<p align="center">
+
+<img src="https://raw.githubusercontent.com/eswaramoorthimahalingam/eswaramoorthimahalingam/output/github-contribution-grid-snake.svg"/>
+
+</p>
 
 # 🏆 Achievements
 
